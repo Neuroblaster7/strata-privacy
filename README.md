@@ -68,10 +68,3 @@ stored and not reused, as ephemeral processing that does not need to be declared
 you can additionally tick **Location → Approximate/Precise → collected → App functionality**
 and mark it *not shared* and *ephemeral*. Over-declaring is safe; under-declaring is what gets
 apps pulled.
-
-## Reusing this for the mushroom app
-
-The policy is accurate for STRATA specifically. When Mushroom Map ships, the third-party
-table in section 5 changes — GBIF, iNaturalist, Open-Meteo, and the land-cover host would be
-added, and Open-Meteo/GBIF receive coordinates the same way Macrostrat does. Update section 5
-and the footer attributions before reusing it, and keep a separate URL per app.
