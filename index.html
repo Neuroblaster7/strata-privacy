@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — STRATA</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1d24; --muted: #5b6472;
+    --line: #e3e6ec; --accent: #b06f1a; --card: #f7f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b1020; --fg: #e8eaf0; --muted: #9aa3b4;
+      --line: #232a3d; --accent: #e0a340; --card: #121829;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem 5rem;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .4rem; letter-spacing: -.02em; }
+  h2 {
+    font-size: 1.15rem; margin: 2.5rem 0 .6rem; padding-top: 1.2rem;
+    border-top: 1px solid var(--line); letter-spacing: -.01em;
+  }
+  h3 { font-size: 1rem; margin: 1.4rem 0 .4rem; }
+  .updated { color: var(--muted); font-size: .9rem; margin-bottom: 1.75rem; }
+  .lede {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 10px; padding: 1.1rem 1.25rem; margin: 0 0 1rem;
+  }
+  .lede p:last-child { margin-bottom: 0; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--accent); }
+  code {
+    background: var(--card); border: 1px solid var(--line);
+    padding: .1em .38em; border-radius: 4px; font-size: .89em;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .93rem; }
+  th, td { text-align: left; padding: .6rem .7rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; }
+  .wrap { overflow-x: auto; }
+  footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+  strong { font-weight: 650; }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Privacy Policy — STRATA</h1>
+  <p class="updated">Last updated: 21 July 2026</p>
+
+  <div class="lede">
+    <p><strong>The short version.</strong> STRATA has no user accounts, no analytics, no
+    advertising, and no server of its own. We do not collect, transmit, or store any personal
+    information about you. Everything you create in the app — your name, your saved spots,
+    your settings — stays on your device and is erased when you uninstall the app.</p>
+    <p>The app does use your device's <strong>location</strong>, but only on the device, to
+    show you what is beneath you and around you. Your location is never sent to us, because
+    there is nowhere for it to be sent.</p>
+  </div>
+
+  <h2>1. Who this policy covers</h2>
+  <p>This policy applies to the STRATA mobile application ("the app") for Android and iOS.
+  The app is published by an independent developer. For any privacy question or request,
+  contact:</p>
+  <p><strong>Contact email:</strong> <a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a></p>
+
+  <h2>2. What the app stores on your device</h2>
+  <p>The following is saved locally on your phone, using the operating system's own secure
+  app storage (<code>UserDefaults</code> on iOS, <code>SharedPreferences</code> on Android).
+  None of it is transmitted anywhere.</p>
+  <div class="wrap">
+  <table>
+    <thead><tr><th>What</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>A display name, if you choose to enter one</td><td>To greet you in the app. It is optional, can be anything, and is never verified or sent anywhere.</td></tr>
+      <tr><td>Your stated experience level</td><td>To choose the wording used to explain results. It does not change any result.</td></tr>
+      <tr><td>Spots you save, including their coordinates and your notes</td><td>So you can return to places you found interesting.</td></tr>
+      <tr><td>Map preferences (basemap, overlays)</td><td>So the app opens the way you left it.</td></tr>
+      <tr><td>Whether you have purchased the paid unlock</td><td>To enable the features you paid for.</td></tr>
+      <tr><td>A count of how many points you have inspected</td><td>A local usage counter. It is never transmitted and nothing is restricted based on it.</td></tr>
+      <tr><td>Cached map tiles and geology data</td><td>So the app is fast and can work offline.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>3. Location</h2>
+  <p>The app requests permission to use your device's location (approximate and/or precise).
+  This is the app's core function: telling you what is under your feet.</p>
+  <ul>
+    <li>Location is used <strong>only while you are using the app</strong>. The app does not
+      request or use background location.</li>
+    <li>Your position is used on the device to centre the map and to scan the area around you.</li>
+    <li>Your position is <strong>never sent to the developer</strong>, and is not stored
+      unless you deliberately save a spot.</li>
+    <li>You can refuse the permission and still use the app — you simply pan the map yourself
+      instead of it finding you.</li>
+    <li>You can revoke the permission at any time in your device's system settings.</li>
+  </ul>
+  <p><strong>One honest disclosure:</strong> when you tap a point to inspect it, the
+  coordinates of <em>that point</em> are sent to the public geology and map services listed in
+  section 5, because that is how the app retrieves the data for that location. Those services
+  receive a coordinate and your device's IP address as part of an ordinary web request. They
+  do not receive your name or any identifier from the app.</p>
+
+  <h2>4. What the app does <em>not</em> do</h2>
+  <ul>
+    <li><strong>No account.</strong> There is no sign-up, no login, no email address collected.</li>
+    <li><strong>No analytics or tracking.</strong> The app contains no analytics, crash-reporting,
+      or attribution SDK of any kind.</li>
+    <li><strong>No advertising.</strong> There are no ads and no advertising identifiers.</li>
+    <li><strong>No selling or sharing of data.</strong> We have no data about you to sell or share.</li>
+    <li><strong>No camera or photo access.</strong> The app does not request or use your camera
+      or photo library.</li>
+    <li><strong>No contacts, microphone, or file access.</strong></li>
+    <li><strong>No background activity.</strong> The app does nothing while it is closed.</li>
+  </ul>
+
+  <h2>5. Third-party services the app contacts</h2>
+  <p>The app has no server of its own. To show maps and geology it talks directly to the
+  following public services. When your device requests data from them, they necessarily
+  receive the map coordinates being requested and your IP address, under their own privacy
+  policies. We have no agreement with them that gives us any data about you.</p>
+  <div class="wrap">
+  <table>
+    <thead><tr><th>Service</th><th>Purpose</th><th>Their policy</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Macrostrat</td>
+        <td>Bedrock geology data for the point you inspect</td>
+        <td><a href="https://macrostrat.org" target="_blank" rel="noreferrer">macrostrat.org</a></td>
+      </tr>
+      <tr>
+        <td>EOX IT Services (Sentinel-2 cloudless, terrain)</td>
+        <td>Satellite and terrain map imagery</td>
+        <td><a href="https://eox.at" target="_blank" rel="noreferrer">eox.at</a></td>
+      </tr>
+      <tr>
+        <td>OpenFreeMap</td>
+        <td>Street map imagery</td>
+        <td><a href="https://openfreemap.org" target="_blank" rel="noreferrer">openfreemap.org</a></td>
+      </tr>
+      <tr>
+        <td>Amazon Web Services (open data)</td>
+        <td>Hosting for some open map datasets</td>
+        <td><a href="https://aws.amazon.com/privacy/" target="_blank" rel="noreferrer">aws.amazon.com/privacy</a></td>
+      </tr>
+      <tr>
+        <td>Google Play Billing</td>
+        <td>Processing the optional paid unlock (Android)</td>
+        <td><a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">policies.google.com/privacy</a></td>
+      </tr>
+      <tr>
+        <td>Apple App Store</td>
+        <td>Processing the optional paid unlock (iOS)</td>
+        <td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noreferrer">apple.com/legal/privacy</a></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>6. Purchases</h2>
+  <p>The app offers an optional one-time paid unlock. Payment is handled entirely by Google
+  Play or the Apple App Store. <strong>We never see or receive your payment details</strong> —
+  no card number, no billing address, no name. The app only stores a local flag recording that
+  the unlock is active.</p>
+
+  <h2>7. Children</h2>
+  <p>The app is not directed at children under 13, and we do not knowingly collect information
+  from anyone. Since no personal data is collected at all, no data about a child could be
+  collected through the app.</p>
+
+  <h2>8. Your rights</h2>
+  <p>Because the app collects no personal data and transmits none to us, there is no personal
+  data held by us to access, correct, export, or delete. If you are in the European Economic
+  Area or the United Kingdom, your rights under the GDPR (access, rectification, erasure,
+  restriction, portability, objection) are therefore satisfied by design: the data never
+  leaves your device in the first place.</p>
+
+  <h3>Deleting your data</h3>
+  <p>All app data is local. To erase it completely you can:</p>
+  <ul>
+    <li><strong>Uninstall the app</strong> — this removes all saved spots, settings, and caches; or</li>
+    <li>On Android, go to <em>Settings → Apps → STRATA → Storage → Clear data</em>; or</li>
+    <li>On iOS, delete the app, or use <em>Settings → General → iPhone Storage → STRATA</em>.</li>
+  </ul>
+  <p>You do not need to contact us to delete your data, and there is no server-side copy to request.</p>
+
+  <h2>9. Security</h2>
+  <p>Your data is protected by your device's own app sandboxing and, where you have enabled it,
+  device encryption. All network requests the app makes use encrypted HTTPS connections.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>If the app ever begins collecting data — for example if an account system or analytics
+  were added — this policy will be updated before that version is released, and the "last
+  updated" date at the top will change. Continued use of the app after an update constitutes
+  acceptance of the revised policy.</p>
+
+  <h2>11. Contact</h2>
+  <p>Questions about this policy or about privacy in the app:
+  <a href="mailto:REPLACE_WITH_YOUR_EMAIL">REPLACE_WITH_YOUR_EMAIL</a></p>
+
+  <footer>
+    Geology data © Macrostrat (CC BY 4.0). Satellite imagery © EOX IT Services GmbH
+    (Sentinel-2 cloudless, CC BY-SA 4.0, colour-adjusted), contains modified Copernicus
+    Sentinel data. Street map data © OpenStreetMap contributors.
+  </footer>
+
+</main>
+</body>
+</html>
